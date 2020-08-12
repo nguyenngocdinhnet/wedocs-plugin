@@ -45,7 +45,7 @@ class Shortcode {
             'include' => 'any',
             'exclude' => '',
             'items'   => 10,
-            'more'    => __( 'View Details', 'wedocs' ),
+            'more'    => __( 'Xem chi tiết', 'wedocs' ),
         ];
 
         $args     = wp_parse_args( $args, $defaults );
